@@ -15,7 +15,7 @@ const Header: React.FC = () => {
   return (
     <header className="w-full flex flex-col">
       {/* Top Black Bar */}
-      <div className="bg-black text-white text-[10px] md:text-xs py-1 px-4 flex justify-between items-center border-b border-gray-800">
+      <div className="bg-[#000] text-white text-[10px] md:text-xs lg:px-16 py-1 px-4 flex justify-between items-center border-b border-[#555a57]">
         <div className="font-bold tracking-wide hidden md:block">{t('header.good_to_work')}</div>
         <div className="flex gap-4 md:gap-6 ml-auto">
           <a href="#" className="hover:text-vonder-yellow flex items-center gap-1">
@@ -34,7 +34,7 @@ const Header: React.FC = () => {
       </div>
 
       {/* Main Nav Bar */}
-      <div className="bg-[#1a1a1a] py-4 px-4 md:px-8 lg:px-16 flex flex-col md:flex-row items-center gap-4 relative z-50">
+      <div className="bg-[#000] py-4 px-4 md:px-8 lg:px-16 flex flex-col md:flex-row items-center gap-4 relative z-50">
         {/* Logo */}
         <div className="w-full md:w-auto flex justify-between items-center mb-2 md:mb-0">
           <div className="text-white font-black text-3xl tracking-tighter italic mr-8">
